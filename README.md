@@ -1,4 +1,4 @@
-# <img src="https://calebdudleydesign.com/images/cdd.png" style="height: 28px; width: 28px;"> Caleb Dudley Design
+# <img src="https://calebdudleydesign.com/images/cdd.png" style="height: 24px; width: 24px;"> Caleb Dudley Design
 
 ### Welcome 🖖
 
