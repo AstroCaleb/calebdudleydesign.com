@@ -1,0 +1,164 @@
+[
+  {
+    "companyName": "Contrast Security",
+    "companyLink": "https://www.contrastsecurity.com/about-us",
+    "currentRole": "Staff Software Engineer",
+    "dateRange": "2021 - Present",
+    "copy": [
+      "My focus is on developing, enhancing, and maintaining Contrast's user interface. I help contribute to ongoing efforts to build new applications and experiences within the Contrast platform. I also work with UX and Product to refine requirements for reusable components, styles, and patterns that we develop for our in-house design system.",
+      "Recently, I architected and developed the foundation of the UI for our new Application Detection and Response (ADR) offering called <a href='https://www.contrastsecurity.com/security-influencers/contrast-northstar-future-of-appsec/' aria-label='Contrast Northstar' target='_blank' rel='noreferrer'>Northstar</a>, a unified platform that can detect, respond to, and fix application-layer attacks and vulnerabilities. I built this using the latest web technologies, including TypeScript, React, React Router, and React Query, along with custom/handwritten CSS taking advantage of features like container and media queries, nested selectors, and of course CSS variables."
+    ],
+    "imageProjectKey": "contrast",
+    "images": [
+      {
+        "file": "ns-1-insights.png",
+        "thumb": "ns-1-thumb-insights.png",
+        "alt": "Northstar Insights dashboard",
+        "width": 198,
+        "height": 147
+      },
+      {
+        "file": "ns-2-insights-open-menu.png",
+        "thumb": "ns-2-thumb-insights-open-menu.png",
+        "alt": "Northstar Insights dashboard with open admin menu"
+      },
+      {
+        "file": "ns-3-incidents.png",
+        "thumb": "ns-3-thumb-incidents.png",
+        "alt": "Northstar incidents list"
+      },
+      {
+        "file": "ns-4-incident-details.png",
+        "thumb": "ns-4-thumb-incident-details.png",
+        "alt": "Northstar incident details"
+      },
+      {
+        "file": "ns-5-issues.png",
+        "thumb": "ns-5-thumb-issues.png",
+        "alt": "Northstar issues list"
+      },
+      {
+        "file": "ns-6-issue-details.png",
+        "thumb": "ns-6-thumb-issue-details.png",
+        "alt": "Northstar issue details"
+      },
+      {
+        "file": "cs-1.png",
+        "thumb": "cs-1-thumb.png",
+        "alt": "Contrast UI servers list"
+      },
+      {
+        "file": "cs-2.png",
+        "thumb": "cs-2-thumb.png",
+        "alt": "Contrast UI servers list"
+      },
+      {
+        "file": "cs-3.png",
+        "thumb": "cs-3-thumb.png",
+        "alt": "Contrast UI application details"
+      },
+      {
+        "file": "cs-4.png",
+        "thumb": "cs-4-thumb.png",
+        "alt": "Contrast UI organization integrations"
+      }
+    ]
+  },
+  {
+    "companyName": "Blackhawk Network, Inc.",
+    "companyLink": "https://blackhawknetwork.com/",
+    "dateRange": "2012 - 2021",
+    "copy": [
+      "I contributed to the development and maintenance of business-to-business gift card/prepaid solutions. I helped build single page business-to-business Node.js applications using HTML/CSS/JavaScript, including popular JavaScript frameworks like Backbone and React, and utilize data from Django REST endpoints. I also helped support the back end Python/Django systems and gained experience with SQL (MySQL) and services like Bitbucket, Jenkins, Rally, and Jira.",
+      "I was a Scrum Master for a business team and worked closely with product to help prioritize new features as well as ensure the team had everything needed to deliver on time. I frequently engaged with customers and stakeholders for feedback on projects in development and to help deliver new features."
+    ],
+    "imageProjectKey": "blackhawk",
+    "images": [
+      {
+        "file": "b2b-1.png",
+        "thumb": "b2b-1-thumb.png",
+        "alt": "Business to business application branded for Gap, home page",
+        "width": 198,
+        "height": 123
+      },
+      {
+        "file": "b2b-2.png",
+        "thumb": "b2b-2-thumb.png",
+        "alt": "Business to business application branded for Delta, home page"
+      },
+      {
+        "file": "b2b-3.png",
+        "thumb": "b2b-3-thumb.png",
+        "alt": "Business to business application branded for Dunkin, graphic 1, home page"
+      },
+      {
+        "file": "b2b-4.png",
+        "thumb": "b2b-4-thumb.png",
+        "alt": "Business to business application branded for Dunkin, graphic 2, login page"
+      }
+    ],
+    "showNextGroupLineConnection": false
+  },
+  {
+    "companyName": "CashStar, Inc.",
+    "companyLink": "https://web.archive.org/web/20170901062039if_/https://www.cashstar.com/",
+    "copy": [
+      "I managed client sites and digital assets, maintained application support for desktop, mobile, and legacy browsers, and provided engineering support for new and ongoing projects. I onboarded clients to our consumer platform and frequently engaged directly with our customers to receive feedback.",
+      "In 2013 I joined a Scrum team that focused on business-to-business solutions and continued through our acquisition by Blackhawk Network in August of 2017."
+    ]
+  },
+  {
+    "companyName": "FetchDog (Fetch Enterprises, Inc.)",
+    "dateRange": "2011 - 2012",
+    "copy": [
+      "I worked with a small team of designers to create and manage digital content for online products sold at FetchDog.com. I helped design and schedule promotional email campaigns and assisted in digital marketing of our products. FetchDog closed in 2012, transitioning ownership to In The Company Of Dogs."
+    ],
+    "imageProjectKey": "fetchdog",
+    "images": [
+      {
+        "file": "fd-1.jpg",
+        "thumb": "fd-1-thumb.jpg",
+        "alt": "Email marketing graphic 1.",
+        "width": 198,
+        "height": 139
+      },
+      {
+        "file": "fd-2.jpg",
+        "thumb": "fd-2-thumb.jpg",
+        "alt": "Online marketing graphic 1."
+      },
+      {
+        "file": "fd-3.jpg",
+        "thumb": "fd-3-thumb.jpg",
+        "alt": "Online marketing graphic 2."
+      },
+      {
+        "file": "fd-4.jpg",
+        "thumb": "fd-4-thumb.jpg",
+        "alt": "Online marketing graphic 3."
+      },
+      {
+        "file": "fd-5.jpg",
+        "thumb": "fd-5-thumb.jpg",
+        "alt": "Online marketing graphic 4."
+      },
+      {
+        "file": "fd-6.jpg",
+        "thumb": "fd-6-thumb.jpg",
+        "alt": "Online marketing graphic 5."
+      },
+      {
+        "file": "fd-7.jpg",
+        "thumb": "fd-7-thumb.jpg",
+        "alt": "Online marketing graphic 6."
+      }
+    ]
+  },
+  {
+    "companyName": "Client Attraction",
+    "dateRange": "2011",
+    "copy": [
+      "I was responsible for maintenance of the corporate website and additional community websites, customer database software, online marketing, social media, video editing, print design for corporate events, and other marketing design responsibilities."
+    ]
+  }
+]

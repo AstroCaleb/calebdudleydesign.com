@@ -1,0 +1,92 @@
+[
+  {
+    "companyName": "Space Dashboard",
+    "companyLink": "https://spacedashboard.com/",
+    "copy": [
+      "I always loved the International Space Station live streams and wanted to find a site that displayed fun and current space related data, but having found none, I made my own! Space Dashboard uses a lot of free and publicly available APIs from NASA to NOAA. I've enjoyed sharing this passion project with the world and have over 1 million page views (75%+ unique!) and counting since it went live back in 2016.",
+      "I recently completely reimagined the site to be more modern, have more fun space data, and be extremely customizable. You can now rearrange the panels, enable or disable them, and even update the live-stream video IDs should you want to view something else."
+    ],
+    "imageProjectKey": "spacedashboard",
+    "images": [
+      {
+        "file": "sd-1.png",
+        "thumb": "sd-1-thumb.png",
+        "alt": "Space Dashboard home page",
+        "width": 198,
+        "height": 100
+      },
+      {
+        "file": "sd-2.png",
+        "thumb": "sd-2-thumb.png",
+        "alt": "Space Dashboard customization options"
+      },
+      {
+        "file": "sd-3.png",
+        "thumb": "sd-3-thumb.png",
+        "alt": "Website screenshot"
+      },
+      {
+        "file": "sd-4.png",
+        "thumb": "sd-4-thumb.png",
+        "alt": "Website screenshot"
+      },
+      {
+        "file": "sd-5.png",
+        "thumb": "sd-5-thumb.png",
+        "alt": "Website screenshot"
+      },
+      {
+        "file": "sd-6.png",
+        "thumb": "sd-6-thumb.png",
+        "alt": "Website screenshot"
+      },
+      {
+        "file": "sd-7.png",
+        "thumb": "sd-7-thumb.png",
+        "alt": "Website screenshot"
+      },
+      {
+        "file": "sd-8.png",
+        "thumb": "sd-8-thumb.png",
+        "alt": "Website screenshot"
+      },
+      {
+        "file": "sd-9.png",
+        "thumb": "sd-9-thumb.png",
+        "alt": "Website screenshot"
+      }
+    ]
+  },
+  {
+    "companyName": "Weather Curve",
+    "companyLink": "https://weathercurve.com/",
+    "copy": [
+      "Just a simple weather app to help you plan your week. This uses the Pirate Weather API (alternative to DarkSky) for a lookup of weather based on either your current location or locations you enter. I was inspired by an iOS app I loved, <a href='https://web.archive.org/web/20220908105615/http://www.freshairweather.io/' aria-label='Fresh Air iOS app' target='_blank' rel='noreferrer'>Fresh Air</a>, which has since been abandoned."
+    ],
+    "imageProjectKey": "weathercurve",
+    "images": [
+      {
+        "file": "wc-1.png",
+        "thumb": "wc-1-thumb.png",
+        "alt": "Website screenshot 1",
+        "width": 198,
+        "height": 141
+      },
+      {
+        "file": "wc-2.png",
+        "thumb": "wc-2-thumb.png",
+        "alt": "Website screenshot 2"
+      },
+      {
+        "file": "wc-3.png",
+        "thumb": "wc-3-thumb.png",
+        "alt": "Website screenshot 3"
+      },
+      {
+        "file": "wc-4.png",
+        "thumb": "wc-4-thumb.png",
+        "alt": "Website screenshot 4"
+      }
+    ]
+  }
+]

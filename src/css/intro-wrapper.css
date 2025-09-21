@@ -1,0 +1,100 @@
+/*
+  Intro wrapper
+*/
+
+#content-wrapper {
+  .intro-wrapper {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 80px 20px 0;
+    position: relative;
+
+    .intro-wrapper-inner {
+      display: flex;
+      flex-direction: column;
+      gap: 47px;
+      margin-bottom: 12vh;
+      max-width: 610px;
+
+      &:focus {
+        box-shadow: none !important;
+      }
+    }
+
+    .intro-name {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+
+      .caleb-avatar {
+        background-color: #a49597;
+        box-shadow: var(--avatar-box-shadow-light-theme);
+        background-image:
+          radial-gradient(circle at 30% 35%, #e8dbb5 0%, transparent 50%),
+          radial-gradient(circle at 70% 35%, #bcbcbc 0%, transparent 50%),
+          radial-gradient(circle at 24% 65%, #e7eee8 0%, transparent 50%),
+          radial-gradient(circle at 65% 80%, #d0a991 0%, transparent 60%),
+          radial-gradient(circle at 40% 80%, #365071 0%, transparent 55%),
+          radial-gradient(circle at 53% 40%, #d4c092 0%, transparent 60%);
+        border-radius: 50%;
+        color: transparent;
+        margin-right: 25px;
+
+        html[data-theme='dark'] & {
+          box-shadow: var(--avatar-box-shadow-dark-theme);
+        }
+      }
+
+      .text {
+        flex-direction: column;
+
+        h1 {
+          font-family: var(--font);
+          font-weight: 200;
+          font-size: 45px;
+          line-height: 1;
+          margin: 0 0 10px;
+
+          &:first-child {
+            font-family: var(--font);
+            font-weight: 500;
+          }
+        }
+      }
+    }
+
+    .intro-copy {
+      p {
+        margin-bottom: 25px;
+        text-wrap: pretty;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    .scroll-indicator {
+      animation: jumpingIndicator 4s ease 0.75s normal infinite;
+      bottom: 10px;
+      color: light-dark(hsl(0, 0%, 75%), hsl(0, 0%, 50%));
+      opacity: 1;
+      position: absolute;
+      transition:
+        0.3s color ease,
+        1s opacity ease;
+      width: 30px;
+
+      &.hide {
+        opacity: 0 !important;
+        transition:
+          0.3s color ease,
+          1s opacity ease;
+      }
+    }
+  }
+}

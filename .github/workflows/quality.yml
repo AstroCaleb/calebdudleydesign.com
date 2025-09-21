@@ -1,0 +1,27 @@
+name: Build and Test
+
+on:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get latest code
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # 4.2.2
+
+      - name: Set up Node
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # 4.4.0
+        with:
+          node-version: 22.19.0
+
+      - name: Get latest yarn
+        run: |
+          corepack enable
+          yarn set version berry
+
+      - name: Install dependencies
+        run: yarn install --immutable
+
+      - name: Build Project
+        run: yarn build

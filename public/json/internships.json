@@ -1,0 +1,119 @@
+[
+  {
+    "companyName": "NBC Universal",
+    "dateRange": "2010",
+    "copy": [
+      "I worked with the NBCU Digital Networks department assisting with projects such as TravelSkoot.com, Momtourage.com, and DinnerTool.com.",
+      "I designed a landing page for DinnerTool users, the user's profile, a My Stuff page where users can share recipes with other members, and a video categories page to find content filtered by different types of meals (easy, fast, healthy, etc).",
+      "The TravelSkoot.com team was building a new site and needed content, such as a first time visitor popup, 404 images, and a video showcasing some of the new features of the site.",
+      "The team for Momtourage.com was developing a contest that was going to be held on Facebook and the team needed badges to accompany awards they were giving out."
+    ],
+    "imageProjectKey": "nbc",
+    "images": [
+      {
+        "file": "DinnerTool-Sign-Up-Confirmation.png",
+        "thumb": "DinnerTool-Sign-Up-Confirmation-thumb.png",
+        "alt": "",
+        "width": 198,
+        "height": 185
+      },
+      {
+        "file": "DinnerTool-My-Stuff.png",
+        "thumb": "DinnerTool-My-Stuff-thumb.png",
+        "alt": ""
+      },
+      {
+        "file": "DinnerTool-My-Account.png",
+        "thumb": "DinnerTool-My-Account-thumb.png",
+        "alt": ""
+      },
+      {
+        "file": "DinnerTool-Videos.png",
+        "thumb": "DinnerTool-Videos-thumb.png",
+        "alt": ""
+      },
+      {
+        "file": "TravelSkoot-popup.png",
+        "thumb": "TravelSkoot-popup-thumb.png",
+        "alt": ""
+      },
+      {
+        "file": "TravelSkoot-404-dining.png",
+        "thumb": "TravelSkoot-404-dining-thumb.png",
+        "alt": ""
+      },
+      {
+        "file": "TravelSkoot-404-music.png",
+        "thumb": "TravelSkoot-404-music-thumb.png",
+        "alt": ""
+      },
+      {
+        "file": "TravelSkoot-video.png",
+        "thumb": "TravelSkoot-video-thumb.png",
+        "alt": ""
+      },
+      {
+        "file": "Momtourage.png",
+        "thumb": "Momtourage-thumb.png",
+        "alt": ""
+      }
+    ],
+    "showNextGroupLineConnection": false
+  },
+  {
+    "companyName": "News 7 Broadcasting",
+    "copy": [
+      "While interning with News 7 I was hired to revise the broadcast graphics and logo used for the local news station in Lyndonville, VT. I worked closely with the studio staff to develop graphics appropriate for broadcast television."
+    ],
+    "imageProjectKey": "news7",
+    "images": [
+      {
+        "file": "News7-logo.png",
+        "thumb": "News7-logo-thumb.png",
+        "alt": "News 7 logo for broadcast",
+        "width": 198,
+        "height": 92
+      },
+      {
+        "file": "News7-logo-mic.png",
+        "thumb": "News7-logo-mic-thumb.png",
+        "alt": "News 7 logo for microphones"
+      },
+      {
+        "file": "News7-1.png",
+        "thumb": "News7-1-thumb.png",
+        "alt": "News 7 television graphics 1."
+      },
+      {
+        "file": "News7-2.png",
+        "thumb": "News7-2-thumb.png",
+        "alt": "News 7 television graphics 2."
+      },
+      {
+        "file": "News7-3.png",
+        "thumb": "News7-3-thumb.png",
+        "alt": "News 7 television graphics 3."
+      },
+      {
+        "file": "News7-4.png",
+        "thumb": "News7-4-thumb.png",
+        "alt": "News 7 television graphics 4."
+      },
+      {
+        "file": "News7-5.png",
+        "thumb": "News7-5-thumb.png",
+        "alt": "News 7 television graphics 5."
+      },
+      {
+        "file": "NewsLines-2.png",
+        "thumb": "NewsLines-2-thumb.png",
+        "alt": "News 7 television graphics 6."
+      },
+      {
+        "file": "NewsLines-1.png",
+        "thumb": "NewsLines-1-thumb.png",
+        "alt": "News 7 television graphics 7."
+      }
+    ]
+  }
+]

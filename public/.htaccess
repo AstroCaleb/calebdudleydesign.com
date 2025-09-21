@@ -1,0 +1,49 @@
+Options -Indexes
+
+
+Header set Strict-Transport-Security "max-age=31536000;includeSubDomains;"
+Header always set X-Frame-Options SAMEORIGIN
+Header set Content-Security-Policy "default-src * 'unsafe-inline' 'unsafe-eval'; script-src * 'unsafe-inline' 'unsafe-eval'; connect-src * 'unsafe-inline'; img-src * data: blob: 'unsafe-inline'; frame-src *; style-src * 'unsafe-inline';"
+# Header set Content-Security-Policy "default-src 'self'; connect-src 'self'; img-src 'self'; style-src 'self'; base-uri 'self'; form-action 'self'"
+# Header set Content-Security-Policy "script-src 'self' www.google-analytics.com ajax.googleapis.com"
+
+
+## SITE REFERRER BANNING
+RewriteEngine on
+# Options +FollowSymlinks
+
+RewriteCond %{HTTP_REFERER} clodo\.ru [NC]
+RewriteRule .* - [F]
+
+
+## USER IP BANNING
+<Limit GET POST>
+ order allow,deny
+ deny from 62.76.182.8
+ deny from 62.76.182.7
+ deny from 62.76.181.213
+ deny from 62.76.181.212
+ allow from all
+</Limit>
+
+
+<filesMatch ".(ico|ttf)$">
+ Header set Cache-Control "max-age=2592000, public"
+</filesMatch>
+
+
+<Files vars-config.ini>
+Order allow,deny
+Deny from all
+</Files>
+
+
+Redirect 301 /work http://calebdudleydesign.com/
+Redirect 301 /contact http://calebdudleydesign.com/
+
+
+ErrorDocument 400 /error.html
+ErrorDocument 401 /error.html
+ErrorDocument 403 /error.html
+ErrorDocument 404 /error.html
+ErrorDocument 500 /error.html

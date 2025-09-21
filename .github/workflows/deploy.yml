@@ -1,0 +1,47 @@
+name: Deploy website on push
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  web-deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get latest code
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # 4.2.2
+
+      - name: Set up Node
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # 4.4.0
+        with:
+          node-version: 22.19.0
+
+      - name: Get latest yarn
+        run: |
+          corepack enable
+          yarn set version berry
+
+      - name: Install dependencies
+        run: yarn install --immutable
+
+      - name: Build Project
+        run: yarn build
+
+      - name: Sync files
+        uses: SamKirkland/FTP-Deploy-Action@8e83cea8672e3fbcbb9fdafff34debf6ae4c5f65 # 4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: public_html/
+          local-dir: ./dist/
+
+      - name: Purge Cloudflare Cache
+        run: |
+          curl --request POST \
+                --url ${{ secrets.CLOUDFLARE_PURGE_CACHE_URL }} \
+                --header 'Content-Type: application/json' \
+                --header 'Authorization: Bearer ${{ secrets.CLOUDFLARE_TOKEN }}' \
+                --data '{"purge_everything":true}'

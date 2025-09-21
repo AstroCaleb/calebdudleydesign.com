@@ -1,0 +1,124 @@
+/*
+  Responsive styles
+*/
+
+@media screen and (max-height: 600px) {
+  .contact-form-wrapper {
+    .contact-form-content {
+      height: 95%;
+      min-height: auto;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #content-wrapper {
+    .work-wrapper {
+      .grouping {
+        .subgroup {
+          .item {
+            align-items: center;
+            flex-direction: column-reverse;
+            gap: 10px;
+
+            .item-media {
+              border: none;
+              margin-right: 0;
+              max-width: 400px;
+              padding: 15px 0;
+              width: 100%;
+
+              &:before {
+                display: none;
+              }
+
+              > span {
+                &:first-child {
+                  width: 100% !important;
+                }
+                &:not(:first-child) {
+                  height: 60px !important;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  header {
+    height: 55px;
+
+    .header-inner {
+      .nav-items {
+        gap: 5px;
+
+        .nav-item {
+          height: 35px;
+          width: 35px;
+        }
+      }
+    }
+  }
+
+  #content-wrapper {
+    .intro-wrapper {
+      padding-top: 65px;
+
+      .intro-name {
+        .caleb-avatar {
+          height: 130px;
+          margin-right: 15px;
+          width: 130px;
+        }
+        .text {
+          h1 {
+            font-size: 35px;
+          }
+        }
+      }
+    }
+
+    .work-wrapper {
+      .sub-header {
+        top: 65px;
+      }
+      .row {
+        border-bottom: 1px solid #ccc;
+        flex-direction: column;
+        margin-bottom: 20px;
+
+        .time-frame {
+          border-right-color: transparent;
+          font-weight: 600;
+          margin-right: 0;
+          min-width: 100%;
+          padding: 0 10px;
+          text-align: left;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 360px) {
+  #content-wrapper {
+    .intro-wrapper {
+      .intro-name {
+        .caleb-avatar {
+          height: 100px;
+          margin-right: 10px;
+          width: 100px;
+        }
+        .text {
+          h1 {
+            font-size: 25px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,257 @@
+[
+  {
+    "companyName": "Actualized Tech: Responsive Client Site",
+    "companyLink": "https://astrocaleb.github.io/responsive-site/",
+    "dateRange": "2021",
+    "copy": [
+      "I designed and developed a fully responsive site template to be used for a client that needed responsive text over images that were placed through the page content. The navigation and header needed to be responsive and the images needed to be full width when possible. No JavaScript was used."
+    ]
+  },
+  {
+    "companyName": "Actualized Tech: QM Mobile",
+    "dateRange": "2018",
+    "copy": [
+      "I collaborated with Actualized Tech to make an iOS and Android app using NativeScript for a company that needed an interactive task manager for employees in the field."
+    ]
+  },
+  {
+    "companyName": "Actualized Tech: API documentation",
+    "dateRange": "2015",
+    "copy": [
+      "I assisted in creating interactive API documentation for a 3rd party."
+    ]
+  },
+  {
+    "companyName": "Actualized Tech Website",
+    "dateRange": "2014",
+    "copy": [
+      "I worked with a software development company to stand up a website for their firm to engage with prospective clients and design a logo for use with their branding."
+    ],
+    "imageProjectKey": "actualized",
+    "images": [
+      {
+        "file": "act-1.png",
+        "thumb": "act-1-thumb.png",
+        "alt": "Website screenshot 1",
+        "width": 198,
+        "height": 140
+      },
+      {
+        "file": "act-2.png",
+        "thumb": "act-2-thumb.png",
+        "alt": "Website screenshot 2"
+      },
+      {
+        "file": "act-3.png",
+        "thumb": "act-3-thumb.png",
+        "alt": "Website screenshot 3"
+      },
+      {
+        "file": "act-5.png",
+        "thumb": "act-5-thumb.png",
+        "alt": "Website screenshot 4"
+      }
+    ],
+    "showNextGroupLineConnection": false
+  },
+  {
+    "companyName": "MJ's Magic Moments",
+    "copy": [
+      "I designed and developed a small Wordpress site for a traveling photo and video booth company that wanted to showcase their work and provide a way for customers to connect with them."
+    ],
+    "imageProjectKey": "mjs",
+    "images": [
+      {
+        "file": "mjs-1.png",
+        "thumb": "mjs-1-thumb.png",
+        "alt": "Website screenshot 1",
+        "width": 198,
+        "height": 165
+      },
+      {
+        "file": "mjs-2.png",
+        "thumb": "mjs-2-thumb.png",
+        "alt": "Website screenshot 2"
+      },
+      {
+        "file": "mjs-3.png",
+        "thumb": "mjs-3-thumb.png",
+        "alt": "Website screenshot 3"
+      }
+    ]
+  },
+  {
+    "companyName": "Guilford Veterans of Foreign Wars",
+    "dateRange": "2013",
+    "copy": [
+      "I designed posters advertising upcoming local events held by the Guilford VFW (CT)."
+    ]
+  },
+  {
+    "companyName": "Lincoln's Country Store",
+    "dateRange": "2010 - 2011",
+    "copy": [
+      "I designed and developed a Drupal powered website for a local Maine variety store. The site's homepage was designed to allow updating current specials offered at the store. Departments were also highlighted on the site with photographs of each department head."
+    ],
+    "imageProjectKey": "lcs",
+    "images": [
+      {
+        "file": "lcs-1.png",
+        "thumb": "lcs-1-thumb.png",
+        "alt": "Website screenshot 1",
+        "width": 198,
+        "height": 155
+      },
+      {
+        "file": "lcs-2.png",
+        "thumb": "lcs-2-thumb.png",
+        "alt": "Website screenshot 2"
+      },
+      {
+        "file": "lcs-3.png",
+        "thumb": "lcs-3-thumb.png",
+        "alt": "Website screenshot 3"
+      }
+    ]
+  },
+  {
+    "companyName": "Informed Green Solutions",
+    "dateRange": "2009 - 2010",
+    "copy": [
+      "I worked closely with the founder to design branding materials including a logo, letterhead, and business cards. I also designed and developed a website built on top of a Drupal backend which allowed uploading documents and articles. The intent of the site was to help educate the public and promote purchasing environmentally friendly cleaning products for home, schools, and workplaces."
+    ],
+    "imageProjectKey": "igs",
+    "images": [
+      {
+        "file": "igs-1.png",
+        "thumb": "igs-1-thumb.png",
+        "alt": "Website screenshot 1",
+        "width": 198,
+        "height": 244
+      },
+      {
+        "file": "igs-2.png",
+        "thumb": "igs-2-thumb.png",
+        "alt": "Website screenshot 2"
+      },
+      {
+        "file": "igs-3.png",
+        "thumb": "igs-3-thumb.png",
+        "alt": "Website screenshot 3"
+      },
+      {
+        "file": "igs-4.png",
+        "thumb": "igs-4-thumb.png",
+        "alt": "Website screenshot 4"
+      },
+      {
+        "file": "igs-5.png",
+        "thumb": "igs-5-thumb.png",
+        "alt": "Website screenshot 5"
+      },
+      {
+        "file": "igs-6.png",
+        "thumb": "igs-6-thumb.png",
+        "alt": "Website screenshot 6"
+      }
+    ]
+  },
+  {
+    "companyName": "Electronic Journalism Arts (EJA) - News 7",
+    "dateRange": "2010",
+    "copy": [
+      "I was hired to revise the broadcast graphics and logo used for the local news station in Lyndonville, VT. I worked closely with the studio staff to develop graphics appropriate for broadcast television. I also designed and developed an updated website for the news station to live stream their broadcasts and showcase their staff and community impact."
+    ],
+    "imageProjectKey": "news7",
+    "images": [
+      {
+        "file": "News7-1.png",
+        "thumb": "News7-1-thumb.png",
+        "alt": "News 7 television graphics 1",
+        "width": 198,
+        "height": 134
+      },
+      {
+        "file": "News7-2.png",
+        "thumb": "News7-2-thumb.png",
+        "alt": "News 7 television graphics 2"
+      },
+      {
+        "file": "News7-3.png",
+        "thumb": "News7-3-thumb.png",
+        "alt": "News 7 television graphics 3"
+      },
+      {
+        "file": "News7-4.png",
+        "thumb": "News7-4-thumb.png",
+        "alt": "News 7 television graphics 4"
+      },
+      {
+        "file": "News7-5.png",
+        "thumb": "News7-5-thumb.png",
+        "alt": "News 7 television graphics 5"
+      },
+      {
+        "file": "NewsLines-1.png",
+        "thumb": "NewsLines-1-thumb.png",
+        "alt": "News 7 television graphics 6"
+      },
+      {
+        "file": "News7-6.png",
+        "thumb": "News7-6-thumb.png",
+        "alt": "News 7 website screenshot 1"
+      }
+    ],
+    "showNextGroupLineConnection": false
+  },
+  {
+    "companyName": "Clothes to Perfection",
+    "copy": [
+      "I edited and revised fashion images directly from photo shoots for online marketing."
+    ],
+    "showNextGroupLineConnection": false
+  },
+  {
+    "companyName": "EJA Department - Lyndon State College",
+    "copy": [
+      "The Electronic Journalism Arts department needed a website to showcase their department, curriculum, and staff. This was a site designed and developed for educating prospective students about what the school had to offer."
+    ],
+    "imageProjectKey": "eja",
+    "images": [
+      {
+        "file": "eja-1.png",
+        "thumb": "eja-1-thumb.png",
+        "alt": "Website screenshot 1",
+        "width": 198,
+        "height": 193
+      },
+      {
+        "file": "eja-2.png",
+        "thumb": "eja-2-thumb.png",
+        "alt": "Website screenshot 2"
+      },
+      {
+        "file": "eja-3.png",
+        "thumb": "eja-3-thumb.png",
+        "alt": "Website screenshot 3"
+      }
+    ]
+  },
+  {
+    "companyName": "The Water Wheel Breakfast and Gift House",
+    "dateRange": "2009",
+    "copy": [
+      "I worked with the owners of The Water Wheel in New Hampshire to design a website and photograph their restaurant for use as marketing material on the site."
+    ],
+    "imageProjectKey": "waterwheel",
+    "images": [
+      {
+        "file": "ww-1.png",
+        "thumb": "ww-1-thumb.png",
+        "alt": "Website mockup 1",
+        "width": 198,
+        "height": 245
+      }
+    ]
+  }
+]

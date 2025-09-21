@@ -1,0 +1,123 @@
+/*
+  Variables
+*/
+
+:root {
+  /* Fonts */
+  --font-size: 16.3px;
+  --font: 'WorkSans', Helvetica, Arial, sans-serif;
+  --font-italic: 'WorkSans Italic', Helvetica, Arial, sans-serif;
+  --text-color: #333;
+  --text-color-dark-theme: #fff;
+
+  /* Button related */
+  --btn-bg-color: #f3f3f3;
+  --btn-bg-hover-color: #efefef;
+  --btn-bg-color-dark-theme: #1f2e3d;
+  --btn-bg-hover-color-dark-theme: #1f2e3d;
+  --btn-box-shadow-light-theme:
+    inset 0 1px 2px hsla(0, 0%, 100%, 0.9), 0 1px 2px hsla(0, 0%, 0%, 0.05);
+  --btn-box-shadow-dark-theme:
+    inset 0 1px 2px hsla(0, 0%, 20%, 0.3), 0 1px 2px hsla(0, 0%, 20%, 0.05);
+  --btn-text-shadow-light-theme: 0 1px 1px #fff;
+  --btn-text-shadow-dark-theme: 0 1px 1px #000;
+
+  /* Links */
+  --link-color: hsla(212, 42%, 36%, 1);
+  --link-border-color: hsla(212, 42%, 36%, 0.2);
+  --link-hover-border-color: hsla(212, 42%, 36%, 0.6);
+  --link-color-dark-theme: hsla(208, 100%, 80%, 1);
+  --link-border-color-dark-theme: hsla(212, 42%, 96%, 0.2);
+  --link-hover-border-color-dark-theme: hsla(212, 22%, 56%, 0.8);
+
+  /* Focus */
+  --focus-visible-box-shadow: 0 0 0 1px hsla(207, 62%, 46%, 0.5);
+  --focus-visible-box-shadow-dark-theme: 0 0 0 1px hsla(207, 22%, 66%, 0.5);
+
+  /* Connecting lines */
+  --sub-header-spacer-connecting-line-height: 60px;
+  --show-next-group-connecting-line-height: 35px;
+
+  /* Header related */
+  --header-bg-light-theme: hsla(211deg, 6%, 92%, 0.7);
+  --header-bg-dark-theme: hsla(211deg, 6%, 16%, 0.7);
+  --header-box-shadow-light-theme: 0 2px 8px 0 hsla(210, 20%, 75%, 0.7);
+  --header-box-shadow-dark-theme: 0 2px 8px 0 hsla(0, 0%, 0%, 0.5);
+  --logo-img-filter-light-theme: drop-shadow(0 0 3px white);
+  --logo-img-filter-dark-theme: brightness(900%) grayscale(1)
+    drop-shadow(0 0 3px transparent);
+
+  /* Avatar */
+  --avatar-box-shadow-light-theme:
+    0 0 0 1px hsla(0, 0%, 0%, 0.2), 0 0.3px 0.8px rgba(0, 0, 0, 0.031),
+    0 0.9px 2px rgba(0, 0, 0, 0.044), 0 1.8px 4.1px rgba(0, 0, 0, 0.056),
+    0 3.7px 8.4px rgba(0, 0, 0, 0.069), 0 10px 23px rgba(0, 0, 0, 0.1);
+  --avatar-box-shadow-dark-theme:
+    0 0 0 1px hsla(0, 0%, 100%, 0.5), 0 0.3px 0.8px rgba(230, 230, 230, 0.031),
+    0 0.9px 2px rgba(230, 230, 230, 0.044),
+    0 1.8px 4.1px rgba(230, 230, 230, 0.056),
+    0 3.7px 8.4px rgba(230, 230, 230, 0.069),
+    0 10px 23px rgba(230, 230, 230, 0.1);
+
+  /* Work wrapper */
+  --sub-header-box-shadow-light-theme:
+    0 0.3px 0.6px -8px rgba(0, 0, 0, 0.087),
+    0 0.8px 1.8px -8px rgba(0, 0, 0, 0.125),
+    0 1.8px 4.2px -8px rgba(0, 0, 0, 0.163), 0 6px 14px -8px rgba(0, 0, 0, 0.25);
+  --sub-header-box-shadow-dark-theme:
+    0 0.3px 0.6px -8px rgba(0, 0, 0, 0.587),
+    0 0.8px 1.8px -8px rgba(0, 0, 0, 0.625),
+    0 1.8px 4.2px -8px rgba(0, 0, 0, 0.663), 0 6px 14px -8px rgba(0, 0, 0, 0.75);
+  --sub-header-focus-visible-box-shadow-light-theme:
+    0 0.3px 0.6px -8px rgba(0, 0, 0, 0.139),
+    0 0.8px 1.8px -8px rgba(0, 0, 0, 0.2),
+    0 1.8px 4.2px -8px rgba(0, 0, 0, 0.261), 0 6px 14px -8px rgba(0, 0, 0, 0.4);
+  --sub-header-focus-visible-box-shadow-dark-theme:
+    0 0.3px 0.6px -8px rgba(0, 0, 0, 0.887),
+    0 0.8px 1.8px -8px rgba(0, 0, 0, 0.925),
+    0 1.8px 4.2px -8px rgba(0, 0, 0, 0.963), 0 6px 14px -8px rgba(0, 0, 0, 0.95);
+
+  /* Work items */
+  --work-item-bg-color-light-theme: #fff;
+  --work-item-bg-color-dark-theme: hsl(0deg 0% 18%);
+  --work-item-box-shadow-light-theme:
+    0 0.3px 0.6px -3px rgba(0, 0, 0, 0.022),
+    0 0.8px 1.3px -3px rgba(0, 0, 0, 0.032),
+    0 1.5px 2.5px -3px rgba(0, 0, 0, 0.04),
+    0 2.7px 4.5px -3px rgba(0, 0, 0, 0.048),
+    0 5px 8.4px -3px rgba(0, 0, 0, 0.058), 0 12px 20px -3px rgba(0, 0, 0, 0.08);
+  --work-item-box-shadow-dark-theme:
+    0 0.3px 0.6px -3px rgba(0, 0, 0, 0.122),
+    0 0.8px 1.3px -3px rgba(0, 0, 0, 0.132),
+    0 1.5px 2.5px -3px rgba(0, 0, 0, 0.14),
+    0 2.7px 4.5px -3px rgba(0, 0, 0, 0.148),
+    0 5px 8.4px -3px rgba(0, 0, 0, 0.158), 0 12px 20px -3px rgba(0, 0, 0, 0.18);
+  --work-item-box-shadow-hover-light-theme:
+    0 0.3px 0.6px -3px rgba(0, 0, 0, 0.045),
+    0 0.8px 1.3px -3px rgba(0, 0, 0, 0.065),
+    0 1.5px 2.5px -3px rgba(0, 0, 0, 0.08),
+    0 2.7px 4.5px -3px rgba(0, 0, 0, 0.095),
+    0 5px 8.4px -3px rgba(0, 0, 0, 0.115), 0 12px 20px -3px rgba(0, 0, 0, 0.16);
+  --work-item-box-shadow-hover-dark-theme:
+    0 0.3px 0.6px -3px rgba(0, 0, 0, 0.445),
+    0 0.8px 1.3px -3px rgba(0, 0, 0, 0.465),
+    0 1.5px 2.5px -3px rgba(0, 0, 0, 0.48),
+    0 2.7px 4.5px -3px rgba(0, 0, 0, 0.495),
+    0 5px 8.4px -3px rgba(0, 0, 0, 0.515), 0 12px 20px -3px rgba(0, 0, 0, 0.56);
+  --item-media-before-border-color-light-theme: #eee;
+  --item-media-before-border-color-dark-theme: hsl(0deg 0% 40%);
+
+  /* Contact form */
+  --close-contact-span-bg-color-light-theme: #000;
+  --close-contact-span-bg-color-dark-theme: #fff;
+  --close-contact-x-color-light-theme: #000;
+  --close-contact-x-color-dark-theme: #fff;
+  --contact-form-input-bg-color-light-theme: rgba(0, 0, 0, 0.03);
+  --contact-form-input-bg-color-dark-theme: rgba(255, 255, 255, 0.03);
+  --contact-form-input-text-color-light-theme: #000;
+  --contact-form-input-text-color-dark-theme: #fff;
+  --contact-form-input-focus-bg-color-light-theme: rgba(0, 0, 0, 0.06);
+  --contact-form-input-focus-bg-color-dark-theme: rgba(255, 255, 255, 0.06);
+  --contact-form-input-hover-bg-color-light-theme: rgba(0, 0, 0, 0.06);
+  --contact-form-input-hover-bg-color-dark-theme: rgba(255, 255, 255, 0.06);
+}

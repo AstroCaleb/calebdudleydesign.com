@@ -1,0 +1,117 @@
+/*
+  Core styles
+*/
+
+@font-face {
+  font-family: 'WorkSans';
+  src: url('/fonts/WorkSans-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'WorkSans Italic';
+  src: url('/fonts/WorkSans-Italic-VariableFont_wght.ttf') format('truetype');
+  font-style: italic;
+}
+
+[data-theme='light'] {
+  color-scheme: light;
+}
+
+[data-theme='dark'] {
+  color-scheme: dark;
+}
+
+:focus-visible {
+  box-shadow: var(--focus-visible-box-shadow);
+  outline: none;
+
+  html[data-theme='dark'] & {
+    box-shadow: var(--focus-visible-box-shadow-dark-theme);
+  }
+}
+
+.tippy-box {
+  font-size: 16px;
+}
+
+.swal-overlay {
+  font-family: var(--font);
+  font-size: 1rem;
+  line-height: 1.2;
+
+  .swal-footer {
+    text-align: center;
+  }
+}
+
+body {
+  accent-color: light-dark(var(--link-color), var(--link-color-dark-theme));
+  background: light-dark(#fff, #141414) !important;
+  color: light-dark(var(--text-color), var(--text-color-dark-theme));
+  font-family: var(--font);
+  font-size: var(--font-size);
+  line-height: 1.1;
+  opacity: 1;
+  margin: 0;
+  transition:
+    0.3s background-color ease,
+    0.3s color ease,
+    0.3s opacity ease;
+
+  &.initial-load,
+  &.initial-load * {
+    html[data-theme='dark'] & {
+      transition:
+        0s all ease,
+        0s background ease,
+        0s background-color ease,
+        0s color ease !important;
+    }
+  }
+
+  &.no-scroll {
+    overflow: hidden !important;
+  }
+}
+
+p {
+  font-family: var(--font);
+  font-weight: 300;
+  line-height: 1.4;
+  margin: 5px 0;
+}
+
+footer {
+  box-sizing: border-box;
+  padding: 20px 0;
+  width: 100%;
+
+  .footer-inner {
+    box-sizing: border-box;
+    font-size: 0.8rem;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+#content-wrapper {
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Experimental! https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timeline */
+.sub-header,
+.subgroup > * {
+  view-timeline: --subjectReveal block;
+  animation-timeline: --subjectReveal;
+  animation-name: scaleItemIn;
+  animation-range: entry -60% contain 5vh;
+  animation-fill-mode: both;
+  animation-duration: 1ms; /* Firefox requires this to apply the animation */
+}
+
+.item {
+  animation-range: entry -60% contain 15vh;
+}
+/* End experimental */
