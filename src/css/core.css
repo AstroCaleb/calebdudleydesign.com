@@ -111,7 +111,7 @@ footer {
   @media (prefers-reduced-motion: no-preference) {
     animation-timeline: --subGroup;
     animation-name: scaleItemIn;
-    animation-range: entry -2vh contain 15vh;
+    animation-range: entry -60% contain 10vh;
     animation-fill-mode: both;
     animation-duration: 1ms; /* Firefox requires this to apply the animation */
   }
@@ -125,7 +125,7 @@ footer {
   @media (prefers-reduced-motion: no-preference) {
     animation-timeline: --workItem;
     animation-name: scaleItemIn;
-    animation-range: entry -50% contain 20vh;
+    animation-range: entry -50% contain 10vh;
     animation-fill-mode: both;
     animation-duration: 1ms; /* Firefox requires this to apply the animation */
 
