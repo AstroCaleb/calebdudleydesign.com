@@ -103,7 +103,7 @@ footer {
 /* Experimental! https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timeline */
 .sub-header,
 .subgroup > * {
-  view-timeline: --subGroup block;
+  view-timeline: --subGroup;
 }
 
 .sub-header,
@@ -118,7 +118,7 @@ footer {
 }
 
 .subgroup > .item {
-  view-timeline: --workItem block;
+  view-timeline: --workItem;
 }
 
 .subgroup > .item {
