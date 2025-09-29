@@ -103,15 +103,35 @@ footer {
 /* Experimental! https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timeline */
 .sub-header,
 .subgroup > * {
-  view-timeline: --subjectReveal block;
-  animation-timeline: --subjectReveal;
-  animation-name: scaleItemIn;
-  animation-range: entry -60% contain 5vh;
-  animation-fill-mode: both;
-  animation-duration: 1ms; /* Firefox requires this to apply the animation */
+  view-timeline: --subGroup block;
 }
 
-.item {
-  animation-range: entry -60% contain 15vh;
+.sub-header,
+.subgroup > * {
+  @media (prefers-reduced-motion: no-preference) {
+    animation-timeline: --subGroup;
+    animation-name: scaleItemIn;
+    animation-range: entry -2vh contain 15vh;
+    animation-fill-mode: both;
+    animation-duration: 1ms; /* Firefox requires this to apply the animation */
+  }
+}
+
+.subgroup > .item {
+  view-timeline: --workItem block;
+}
+
+.subgroup > .item {
+  @media (prefers-reduced-motion: no-preference) {
+    animation-timeline: --workItem;
+    animation-name: scaleItemIn;
+    animation-range: entry -50% contain 20vh;
+    animation-fill-mode: both;
+    animation-duration: 1ms; /* Firefox requires this to apply the animation */
+
+    @media screen and (max-height: 800px), screen and (max-width: 600px) {
+      animation-range: entry -50% entry 60%;
+    }
+  }
 }
 /* End experimental */
