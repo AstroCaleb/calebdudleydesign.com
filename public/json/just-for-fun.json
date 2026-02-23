@@ -86,6 +86,21 @@
         "file": "wc-4.png",
         "thumb": "wc-4-thumb.png",
         "alt": "Website screenshot 4"
+      },
+      {
+        "file": "wc-5.png",
+        "thumb": "wc-5-thumb.png",
+        "alt": "Website screenshot 5"
+      },
+      {
+        "file": "wc-6.png",
+        "thumb": "wc-6-thumb.png",
+        "alt": "Website screenshot 6"
+      },
+      {
+        "file": "wc-7.png",
+        "thumb": "wc-7-thumb.png",
+        "alt": "Website screenshot 7"
       }
     ]
   }
