@@ -2,11 +2,10 @@
   {
     "companyName": "Contrast Security",
     "companyLink": "https://www.contrastsecurity.com/about-us",
-    "currentRole": "Staff Software Engineer",
-    "dateRange": "2021 - Present",
+    "dateRange": "2021 - 2026",
     "copy": [
-      "My focus is on developing, enhancing, and maintaining Contrast's user interface. I help contribute to ongoing efforts to build new applications and experiences within the Contrast platform. I also work with UX and Product to refine requirements for reusable components, styles, and patterns that we develop for our in-house design system.",
-      "Recently, I architected and developed the foundation of the UI for our new Application Detection and Response (ADR) offering called <a href='https://www.contrastsecurity.com/security-influencers/contrast-northstar-future-of-appsec/' aria-label='Contrast Northstar' target='_blank' rel='noreferrer'>Northstar</a>, a unified platform that can detect, respond to, and fix application-layer attacks and vulnerabilities. I built this using the latest web technologies, including TypeScript, React, React Router, and React Query, along with custom/handwritten CSS taking advantage of features like container and media queries, nested selectors, and of course CSS variables."
+      "At Contrast, I led frontend development across the platform while architecting the foundation of <a href='https://www.contrastsecurity.com/security-influencers/contrast-northstar-future-of-appsec/' aria-label='Contrast Northstar' target='_blank' rel='noreferrer'>Northstar</a>, a unified Application Detection and Response product, and the design system that powers it. Working closely with UX and Product, I defined and built the reusable components, patterns, and systems that other engineers rely on.",
+      "Built with TypeScript, React, and handwritten CSS leveraging modern features like container queries and CSS variables, with a consistent focus on both end-user experience and developer ergonomics."
     ],
     "imageProjectKey": "contrast",
     "images": [
