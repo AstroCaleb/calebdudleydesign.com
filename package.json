@@ -44,7 +44,7 @@
     "process": "^0.11.10",
     "typescript": "^5.9.2",
     "typescript-eslint": "^8.44.0",
-    "vite": "^7.1.6"
+    "vite": "^7.1.11"
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
