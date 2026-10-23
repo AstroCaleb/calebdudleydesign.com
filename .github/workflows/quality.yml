@@ -13,12 +13,10 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # 4.4.0
         with:
-          node-version: 22.19.0
+          node-version-file: .nvmrc
 
-      - name: Get latest yarn
-        run: |
-          corepack enable
-          yarn set version berry
+      - name: Enable Yarn
+        run: corepack enable
 
       - name: Install dependencies
         run: yarn install --immutable
